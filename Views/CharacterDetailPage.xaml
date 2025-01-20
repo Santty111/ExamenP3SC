@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenP3SC.Views.CharacterDetailPage"
+             Title="CharacterDetailPage">
+    <StackLayout>
+        <Label Text="{Binding SelectedCharacter.Name}" FontSize="Large" />
+        <Label Text="{Binding SelectedCharacter.Description}" />
+        <Button Text="Guardar en base de datos" Command="{Binding SaveCommand}" />
+    </StackLayout>
+</ContentPage>
