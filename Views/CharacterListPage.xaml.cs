@@ -1,3 +1,7 @@
+using ExamenP3SC.ViewModels;
+using ExamenP3SC.Model;
+
+
 namespace ExamenP3SC.Views;
 
 public partial class CharacterListPage : ContentPage
